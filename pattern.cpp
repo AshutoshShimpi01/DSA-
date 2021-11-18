@@ -54,7 +54,7 @@ int main()
 using namespace std;
 int main()
 {
-    int row,col;  //holo rectangle pattern
+    int row,col;  //holo rectangle pattern         
     cin>>row>>col;
     
     for(int i=1; i<=row; i++){
@@ -69,6 +69,11 @@ int main()
     }
     return 0;
 }
-
+/*  output- 
+######
+#    #
+#    #
+#    #
+######  */
 
 *********************************************************************
