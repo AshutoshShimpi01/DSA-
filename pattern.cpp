@@ -1,4 +1,4 @@
-include<iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -20,6 +20,13 @@ int main()
     
     return 0;
 }
+/* output-
+1
+01
+101
+0101
+10101
+010101 */
 
 
 
@@ -42,6 +49,11 @@ int main()
     }
     return 0;
 }
+/* output-
+*****
+*****
+*****
+***** */
 
 
 *********************************************************************
