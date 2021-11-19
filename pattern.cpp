@@ -174,3 +174,36 @@ int main()
 
 *********************************************************************
 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    
+    for(int i=70; i>=65; i--){
+        for(int j=70; j>=65; j--){
+            cout<<(char)j;
+        }
+        cout<<endl;
+    }
+    
+    
+    return 0;
+}
+               
+/* output-   ASCII value a=65 & z=90
+ 
+ FEDCBA
+ FEDCBA
+ FEDCBA
+ FEDCBA
+ FEDCBA
+ FEDCBA
+ 
+ 
+ 
+ */
+
+*********************************************************************
+
