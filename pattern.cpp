@@ -285,3 +285,44 @@ int main()
  */
 *********************************************************************
 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,i,num;
+    
+    cin>>a>>b;
+    
+    for(num=a; num<=b; num++)
+    {
+        for(i=2; i<num; i++)
+            {
+            if(num%i==0)
+            {
+                break;
+            }
+        }
+        
+    if(i==num)
+    {
+        cout<<num<<endl;
+    }
+    }
+    return 0;
+}
+
+
+/*
+ output-
+ prime no. with user define no.-10 to 20
+ 10
+ 20
+ 11
+ 13
+ 17
+ 19
+ */
+*********************************************************************
+
+
