@@ -1,0 +1,28 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+    int i,rev=0;
+    
+    
+    cout<<"Enter a numb";
+    cin>>i;
+    while(i>0)
+    {
+        rev=(rev*10)+i%10;
+        i=i/10;
+        
+    }
+    cout<<rev;
+return 0;
+}
+
+
+/*
+ output-
+ 123456-
+ 654321
+ Program ended
+ */
