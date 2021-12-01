@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main()
@@ -24,7 +24,7 @@ int main()
  */
 
 ******************************************************************************
-#include <iostream>
+#include<iostream>
 using namespace std;
 void Array(int arr[5]);
 int main()
