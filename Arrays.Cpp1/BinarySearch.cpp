@@ -37,3 +37,10 @@ return -1;
     cin>>key;
         cout<<binarySearch(arr, n, key)<<endl;
 }
+/*
+ 5
+ 12 32 21 23 25
+ 25
+ 4
+ Program ended 
+ */
