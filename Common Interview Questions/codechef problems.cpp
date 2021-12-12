@@ -78,7 +78,7 @@ int main()
     int mx=-1;
     for(int i=0;i<n;i++)
     {
-        if(a[i]>mx && a[i]>a[i+1])
+        if(a[i]>mx && a[i]>a[i+1]) // 2nd day value is greater than 1st and also 3rd.
         {
             ans ++;
         }
