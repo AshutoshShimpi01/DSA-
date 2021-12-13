@@ -8,7 +8,7 @@ int main()
     {
         cin>>a[i];
     }
-    const int N=1e6+2;
+    const int N=1e6+2; // (10)6=1e6+2
     int idx[N];
     for(int i=0;i<n;i++)
     {
