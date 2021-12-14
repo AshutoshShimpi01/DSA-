@@ -63,7 +63,7 @@ int main()
         }
         
         int st=-1,en=-1,i=0,j=0,sum=0;
-        while(j<n && sum+a[j]<=s)
+        while(j<n && sum+a[j]<=s) // array j=a[j]
         {
             sum=sum+a[j];
             j++;
