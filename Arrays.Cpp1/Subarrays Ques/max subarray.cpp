@@ -50,7 +50,7 @@ int main()
     {
         cin>>a[i];
     }
-    for(int i=0;i<n;i++) // we are placing 3 nested loops here to find the answer
+    for(int i=0;i<n;i++) // we are placing 3 nested loops here to find the answer. then time complexity -o(n)cube
     {
         for(int j=i;j<n;j++){
             int sum=0;
