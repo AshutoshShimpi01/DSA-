@@ -48,5 +48,6 @@ int main()
 output
 7
 4 -4 6 -6 10 -11 12
-34 //.  wrong output because in 8.6 vdio shows output is 22.
+22
+Program ended
 */
