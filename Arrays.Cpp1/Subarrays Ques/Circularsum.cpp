@@ -30,7 +30,7 @@ int main()
         cin>>arr[n];
         
     }
-    int wrapsum;
+    int wrapsum; // wraping mean variable are move and nonwrap mean eg={-1,4,-6,7,5,-4}so max sum index is 7+5 so 7,5 is non wrap & others are wrap because their sum is negative sum
     int nonwrapsum;
     nonwrapsum=kadane(arr,n);
     int totalsum=0;
