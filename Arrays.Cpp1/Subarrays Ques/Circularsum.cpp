@@ -49,5 +49,5 @@ output
 7
 4 -4 6 -6 10 -11 12 // kadane algorithm use for circulare sum counting mean we are start counting from 12+4+6+-6+10=22 -11 not count because 4+-4+6+-6+10+-11+12=11
 22 // and 12+4+-4+6+-6+10=22
-Program ended..
+Program ended...
 */
