@@ -17,7 +17,7 @@ int main()
      int   j=i-1;
         while(arr[j]>current && j>=0)
         {
-            arr[j+1]=arr[j];
+            arr[j+1]=arr[j]; // j=0 so 0+1=1 at index no. 1=value 2 replace with value 3.
             j--;
 }
         arr[j+1]=current;
