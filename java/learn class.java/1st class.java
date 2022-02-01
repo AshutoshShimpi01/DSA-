@@ -1,3 +1,8 @@
+// 1st create class then in that section write method and after our file name class and then call main method
+
+
+
+
 class Calc
 {
 int num1;
