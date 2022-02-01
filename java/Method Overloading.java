@@ -44,6 +44,9 @@ OUTPUT-
 
 ************************---------****************************
 
+// about static method in meth overloading 
+
+
 class Emp
 {
 	int id;
