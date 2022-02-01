@@ -1,4 +1,5 @@
 
+// This is a Single Level Inheritance 
 
 
 class Calculator // in java Super, Parent , in cpp Base
@@ -49,6 +50,8 @@ OUTPUT=
 
 
 *********************************************************
+
+// This is a Multi Level Inheritance 
 
 class Calculator
 {
