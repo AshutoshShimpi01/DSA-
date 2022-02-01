@@ -23,3 +23,37 @@ public class ja
  5 6 7 8 5
 
 */
+
+***************** ---------- *******************
+
+//SAME method with less memory 
+
+
+public class ja
+{
+	public static void main(String[] args)
+	 {
+		int a[][]={
+			{1,2,3},
+			{2,4,6,8},
+			{5,6,7,8,5}
+		};
+
+	for(int k[] : a)
+ {
+        for(int l : k)
+        {
+	    System.out.print(" " + l);
+        }
+    System.out.println();
+			
+ }
+		
+	}
+}
+	
+/*
+1 2 3
+ 2 4 6 8
+ 5 6 7 8 5
+*/
