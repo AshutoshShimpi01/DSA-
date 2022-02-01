@@ -26,7 +26,7 @@ public class ja
 
 ***************** ---------- *******************
 
-//SAME method with less memory 
+//SAME method with less memory (Enhance for loop with 2D Arrays)
 
 
 public class ja
