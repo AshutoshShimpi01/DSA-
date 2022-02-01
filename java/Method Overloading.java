@@ -41,3 +41,60 @@ OUTPUT-
 8.3 
 
 */
+
+************************---------****************************
+
+class Emp
+{
+	int id;
+	static String  manager;
+	int sal;
+
+static
+{
+   manager="sham";
+   	System.out.println("in SHAM Static");
+}
+
+
+public Emp()
+{
+	id = 1;
+	sal = 3000;
+	System.out.println("in constructor");
+}
+static
+{
+   manager="ram";
+   	System.out.println("in Static");
+}
+	public void show()
+	{
+		System.out.println(id + ":" + sal + ":" + manager);
+	}
+	
+}
+
+public class ja
+{
+	public static void main(String[] args) 
+	{
+		Emp ashu = new Emp();
+
+		
+		Emp omkar = new Emp();
+
+		
+		ashu.show();
+		omkar.show();
+	}
+}
+
+/*
+in SHAM Static
+in Static
+in constructor
+in constructor
+1:3000:ram
+1:3000:ram
+*/
