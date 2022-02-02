@@ -1,27 +1,41 @@
-
-public class ja
-{
- public static void main(String[] args) 
-	{
-		for(int i=1;i<=4;i++)
-		{
-			for(int j=1;j<=4;j++) // inner loop execute multiple times
-			{
-				System.out.print("* ");
-			}
-			System.out.println();
-		}
-		
-    }
-	
-	
-}
 /*
-OUTPUT-
 
-* * * * 
-* * * * 
-* * * * 
-* * * * 
+Multiple Inheritance :-
+
+
+Java doesnt support multiple Inheritance.
+because-
+
+class A
+{
+
+show();
+
+}
+
+class B 
+{
+
+show();
+
+}
+
+if class C extends A,B             // In class C Doesn't have show() method 
+{
+
+}
+main()
+{
+
+C obj = new C();
+obj.show();                      // At their which show method call in class A or Class B.  PROBLEM CREATE 
+
+}
+
+HENCE JAVA  doesnt support multiple Inheritance.
+
+
+
+
 
 */
