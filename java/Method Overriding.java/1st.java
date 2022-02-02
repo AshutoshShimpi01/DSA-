@@ -51,7 +51,8 @@ class Ashu
 }
 class Yogesh extends Ashu
 {
-	public void shri()
+@Override    // use this for don't create a mistake in our method calling for overriding .
+	public void shri() //.   if i done spelling mistake shri1() writing of this (@Overrid) throws error. and solve our Problem
 	{
 		System.out.println("Is a Big Brother of Ashu,shri and keshav");
 	}
