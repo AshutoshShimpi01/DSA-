@@ -1,3 +1,8 @@
+
+
+// SUPER :-  It is a key word for representing the super class Method
+
+
 class A        // Super Class
 {
 	public A()                       // Default Constructor
@@ -51,7 +56,7 @@ In B
 
 public B()                        
 	{
-        super(5); // in Super method pass parameter=5
+        super(5); // in Super key pass parameter=5
 		System.out.println("In B");
 	}
 In A Int
@@ -59,7 +64,7 @@ In B
 
 ***********
 
- if we don't Write Super method then
+ if we don't Write Super key then
 In A
 In B Int
 
