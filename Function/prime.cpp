@@ -66,3 +66,35 @@ int main(){
         }
     return 0;
 }
+
+*************************************
+
+//
+//  main.cpp
+//  PracticeXcode
+//
+//  Created by ♠️ᴅᴀᴅ's ɢɪғᴛ♠️ on 07/02/22.
+//
+
+#include <iostream>
+using namespace std;
+int main() {
+    int n,num;
+    cin>>n;
+    
+    for(int i=2;i<=n/2;i++)
+    {
+        num=n%i;
+        
+    }
+    if(num==0)
+    {
+        cout<<"not prime";
+    }
+    else{
+        cout<<"prime";
+    }
+
+    return 0;
+}
+
