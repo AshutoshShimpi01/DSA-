@@ -1,0 +1,502 @@
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Simple Syntax of HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>My First Heading</h1>
+   <p>My first paragraph.</p> 
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Attributes
+
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Headings
+
+HTML headings are defined with the <h1> to <h6> tags.
+
+<h1> defines the most important heading. <h6> defines the least important heading.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tag References to paragraphs
+
+<p>	    Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text. It keeps line breaks and spaces.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Style
+
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Formatting Elements
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Quotation and Citation Elements
+
+<abbr>	        Defines an abbreviation or acronym
+<address>	    Defines contact information for the author/owner of a document
+<bdo>	        Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	        Defines the title of a work
+<q>	            Defines a short inline quotation
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Comment
+
+<!--comment-->
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Color
+
+RGB - rgb(red, green, blue)
+      Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255.
+RGBA - rgba(red, green, blue, alpha)
+       The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+HEX - #rrggbb
+      Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff.
+HSL - hsl(hue, saturation, lightness)
+      Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+      Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+      Lightness is also a percentage value, 0% is black, and 100% is white.
+HSLA - hsla(hue, saturation, lightness, alpha)
+       The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS AND HTML
+
+CSS can be added to HTML documents in 3 ways:
+
+Inline CSS - by using the style attribute inside HTML elements
+Internal CSS - by using a <style> element in the <head> section
+External CSS - by using a <link> element to link to an external CSS file.
+
+
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Link
+
+By default, links will appear as follows in all browsers:
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+<a href="url">link text</a>
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window.
+
+absolute URL (a full web address)
+relative URL (without the "https://www" part)
+
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Images
+
+<img src="url" alt="alternatetext">
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+Image as a Link
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+Image as a Link
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+Image Floating
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+Use the CSS float property to let the image float to the left or to the right
+
+Common Image Formats
+
+Abbreviation	            File Format	                        File Extension
+
+APNG	            Animated Portable Network Graphics	            .apng
+GIF	                Graphics Interchange Format	                    .gif
+ICO	                Microsoft Icon	                                .ico, .cur
+JPEG	            Joint Photographic Expert Group image	        .jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	                Portable Network Graphics	                    .png
+SVG	                Scalable Vector Graphics	                    .svg
+
+The <picture> element contains one or more <source> elements, each referring to different images through the srcset attribute. 
+This way the browser can choose the image that best fits the current view and/or device.
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+Always specify an <img> element as the last child element of the <picture> element. 
+The <img> element is used by browsers that do not support the <picture> element, or if none of the <source> tags match.
+
+There are two main purposes for the <picture> element i.e Bandwidth or Format Support.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Image Maps
+
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map.
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">  --Create an image
+<map name="workmap">                                         --Create an imagemap
+
+Shapes
+
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+Clicking on above parts will give more info of the subject where it is referenced.
+
+A clickable area can also trigger a JavaScript function.
+Add a click event to the <area> element to execute a JavaScript function.
+Example:
+<map name="workmap">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Background Images
+
+<div style="background-image: url('img.jpg');">
+
+In style section
+<style>
+div {
+  background-image: url('img.jpg');
+}
+</style>
+
+Background image to entire page with no repeatation
+<style>
+body {
+  background-image: url('example_img.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+
+Background Cover to fix image
+<style>
+body {
+  background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+If you want to strech the image change the background-size with percentage like background-size: 100% 100%.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Favicon
+
+A favicon is a small image, so it should be a simple image with high contrast. It is left icon on your browser tab.It is placed inside link tag.
+<link>	Defines the relationship between a document and an external resource.
+You can use any image you like as your favicon. You can also create your own favicon on sites like https://favicon.cc
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="x-icon" href="favicon.ico">
+</head>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tables
+
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Borders for table
+
+table, th, td {
+  border: 1px solid black;
+}
+
+To avoid having double borders
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+Background color for table cell 
+th, td {
+  background-color: #96D4D4;
+}
+
+round table borders
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+skip table border
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+Dotted table border
+th, td {
+  border-style: dotted;
+}
+
+The following values are allowed:
+dotted     
+dashed     
+solid     
+double     
+groove     
+ridge     
+inset     
+outset     
+none     
+hidden     
+
+Border color
+th, td {
+  border-color: #96D4D4;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Table Size,Headers,Padding & Spacing
+
+Use the style attribute with <table> for width or height properties to specify the size of a table, row or column.
+<table style="width:100%">
+
+To set the size of a specific column, add the style attribute on a <th> or <td> element.
+<th style="width:70%">name</th>
+
+To set the height of a specific row, add the style attribute on a table row element.
+<tr style="height:200px">
+
+Table headers are defined with th elements, each th element represents a table cell.
+By default, table headers are bold and centered.
+For aligning table headers use text-align
+th {
+  text-align: left;
+}
+
+Table Caption serves as Heading for the entire table.
+The <caption> tag should be inserted immediately after the <table> tag.
+
+Cell padding is the space between the cell edges and the cell content.
+By default the padding is set to 0.
+th, td {
+  padding: 15px;
+}
+To add padding only specific direction we use
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+Cell spacing is the space between each cell.
+By default the space is set to 2 pixels.
+table {
+  border-spacing: 30px;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Table Colspan & Rowspan,Table Styling
+
+HTML tables can have cells that spans over multiple rows and/or columns or it combines rows and columns.
+
+To make a cell span over multiple columns, use the colspan attribute
+<th colspan="2">Name</th>
+
+To make a cell span over multiple rows, use the rowspan attribute
+<th rowspan="2">Name</th>
+
+Zebra Stripes
+To style every other table row element, use the :nth-child(odd/even) selector
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+Vertical Zebra Stripes
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+Horizontal Dividers
+If you specify borders only at the bottom of each table row, you will have a table with horizontal dividers.
+Add the border-bottom property to all tr elements to get horizontal dividers.
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+Hoverable Table
+Use the :hover selector on tr to highlight table rows on mouse over.
+tr:hover {background-color: #D6EEEE;}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Table Colgroup
+
+The <colgroup> element is used to style specific columns of a table.
+The <colgroup> element should be used as a container for the column specifications.
+Each group are specified with a <col> element.
+The span attribute specifies how many columns that gets the style.
+The style attribute specifies the style to give the columns.
+The <colgroup> tag must be a child of a <table> element and should be placed before any other table elements, 
+like <thead>, <tr>, <td> etc., but after the <caption> element, if present.
+<colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+</colgroup>
+ 
+ 
+There are only a very limited selection of CSS properties that are allowed to be used in the colgroup:
+width property
+visibility property
+background properties
+border properties
+All other CSS properties will have no effect on your tables.
+
+If you want to style columns in the middle of a table, insert a "empty" <col> element (with no styles) for the columns before.
+<colgroup>
+    <col span="3">
+    <col span="2" style="background-color: pink">
+</colgroup>
+  
+You can hide columns with the visibility: collapse property.
+<col span="3" style="visibility: collapse">
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lists
+
+Lists in HTML are of types:
+Ordered Lists
+Unordered Lists
+Description Lists
+
+
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+Lists can be nested.
+
+Unordered list
+The CSS list-style-type property is used to define the style of the list item marker.
+
+disc	    Sets the list item marker to a bullet (default)
+circle	    Sets the list item marker to a circle
+square	    Sets the list item marker to a square
+none	    The list items will not be marked
+
+Example: Disc
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Ordered list
+
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+
+Example:
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute.
+
+Description Lists
+A description list is a list of terms, with a description of each term.
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.
+Example:
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
