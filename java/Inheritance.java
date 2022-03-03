@@ -152,3 +152,11 @@ a class method
 b class method
 c class method
 */
+
+
+******************************************************************
+
+/* Hierarchical Inheritance:
+in this inheritance we cannot call direct method B by creating object C (C ob3.showB()).
+we only call method A to B means( method B and A )
+and A to C means( method C and A )
