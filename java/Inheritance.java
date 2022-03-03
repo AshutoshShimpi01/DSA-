@@ -1,3 +1,7 @@
+/* CONSTRUCTOR AND PRIVATE ACCESS MODIFIER CANNOT BE INHERIATE IN INHERITANCE.
+*/
+
+
 
 // This is a Single Level Inheritance 
 
