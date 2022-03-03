@@ -137,8 +137,8 @@ public static void main(String[] args) {
   ob2.showB();
 
   C ob3=new C();
-  ob2.showA();
-  ob2.showB();
+  ob3.showA();
+  ob3.showB();
   ob3.showC();
 }
 
