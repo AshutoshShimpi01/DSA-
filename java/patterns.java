@@ -60,19 +60,12 @@ class java
  
   }  
 }
-
-
-    
-  
 /*
 
 *****
 *   *
 *   *
 *****
-
-
-
 */	
 
 ------------------------------------------
@@ -99,22 +92,13 @@ class java
  
   }
   
-}
- 
-   
-
-
-    
-  
+} 
 /*
 
 *
 **
 ***
 ****
-
-
-
 */	
 -------------------------------------------
 	
@@ -141,20 +125,11 @@ class java
   }
   
 }
- 
-   
-
-
-    
-  
 /*
-
 ****
 ***
 **
 *
-
-
 
 */	
 
@@ -189,12 +164,7 @@ class java
   }
   
  }
- 
-   
 
-
-    
-  
 /*
 
 FOR THIS TYPE OF QUESTIONS WE NEED TO CREATE TWO INNER LOOPS 1ST FOR SPACE AND 2ND FOR *.
@@ -203,7 +173,39 @@ FOR THIS TYPE OF QUESTIONS WE NEED TO CREATE TWO INNER LOOPS 1ST FOR SPACE AND 2
   **
  ***
 ****
+*/
+--------------------------------------------
+	
+import java.util.Scanner;
 
 
+class java
+{
+  public static void main(String[] args) 
+  {
+    
+    int n=5;
+    for(int i=1;i<=n;i++) // OUTER LOOP
+    {
+      for(int j=1;j<=n-i+1;j++) //1st INNER LOOS
+      {
+        System.out.print(j);
+        
+      }
+      System.out.println();
 
+    }
+      
+
+    }
+ 
+  }
+  
+  
+/*
+12345
+1234
+123
+12
+1
 */
