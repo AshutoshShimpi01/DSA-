@@ -187,7 +187,7 @@ class java
     int n=5;
     for(int i=1;i<=n;i++) // OUTER LOOP
     {
-      for(int j=1;j<=n-i+1;j++) //1st INNER LOOS
+      for(int j=1;j<=n-i+1;j++) // n=5-i(1)+1=5, 5-i(2)+1=4, 5-i(3)+1=3 SIMPLE
       {
         System.out.print(j);
         
