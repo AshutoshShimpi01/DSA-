@@ -157,3 +157,53 @@ class java
 
 
 */	
+
+---------------------------------------
+	
+import java.util.Scanner;
+
+
+class java
+{
+  public static void main(String[] args) 
+  {
+    
+    int n=4;
+    for(int i=1;i<=n;i++) // OUTER LOOP
+    {
+      for(int j=1;j<=n-i;j++) //1st INNER LOOS
+      {
+        System.out.print(" ");
+        
+      }
+
+      for(int j=1;j<=i;j++) // 2nd INNER LOOP
+      {
+
+         System.out.print("*");
+      }
+      System.out.println();
+
+    }
+ 
+  }
+  
+ }
+ 
+   
+
+
+    
+  
+/*
+
+FOR THIS TYPE OF QUESTIONS WE NEED TO CREATE TWO INNER LOOPS 1ST FOR SPACE AND 2ND FOR *.
+
+   *
+  **
+ ***
+****
+
+
+
+*/
