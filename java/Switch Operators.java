@@ -37,3 +37,43 @@ public class ja
 		}
 	}
 }
+
+
+*****************-------------******************
+
+//SWITCH BY USING SCANNER
+
+import java.util.Scanner;
+
+
+class java
+{
+  public static void main(String[] args) 
+  {
+    Scanner sc = new Scanner(System.in);
+
+    int button=sc.nextInt();
+
+    switch(button)
+    {
+
+    case 1 : System.out.println("Hello");
+      break;
+    case 2 : System.out.println("Namaste");
+      break;
+     case 3 : System.out.println("Kese ho Bhai");
+     break;
+     default : System.out.println("Invalid input"); 
+
+}
+
+
+    
+  }
+}
+/*
+
+3
+Namaste
+
+*/
