@@ -245,3 +245,54 @@ class java
 7 8 9 10 
 11 12 13 14 15 
 */
+-----------------------------------------
+import java.util.Scanner;
+
+
+class java
+{
+  public static void main(String[] args) 
+  {
+    int n=5;
+
+    for(int i=1;i<=n;i++)
+    {
+
+      //for Spaces
+
+      for(int j=1;j<=n-i;j++)
+      {
+        System.out.print(" ");
+      }
+
+      //for 1st half no.
+
+      for(int j=i;j>=1;j--)
+      {
+        System.out.print(j);
+      }
+      //for 2nd half no.
+
+      for(int j=2;j<=i;j++)
+      {
+        System.out.print(j);
+      }
+
+     
+      System.out.println();
+    }
+
+    }
+ 
+  }
+  
+  
+/*
+    1
+   212
+  32123
+ 4321234
+543212345
+
+*/
+---------------------------------------------
