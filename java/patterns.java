@@ -417,13 +417,13 @@ class java
         System.out.print(" ");
       }
 
-      //for 1st half no.
+      //for 1st half no.--BACKWORD DIRECTION
 
       for(int j=i;j>=1;j--)
       {
         System.out.print(j);
       }
-      //for 2nd half no.
+      //for 2nd half no.--FORWORD DIRECTION
 
       for(int j=2;j<=i;j++)
       {
