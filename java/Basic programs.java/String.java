@@ -22,3 +22,28 @@ My name is: Ashutosh Sanjay Shimpi
 
 if we only take String name=sc.next(); then only print Ashutosh not all
 */
+
+----------------------------
+ 
+ import java.util.Scanner;
+
+
+public class java
+{
+ 
+  public static void main(String[] args) 
+  {
+  
+  String firstname= "Tony";
+  String lastname="Stark";
+  String fullname=(firstname+lastname);
+
+   System.out.println(fullname);
+    
+   }
+}
+ 
+  
+/*
+TonyStark
+*/
