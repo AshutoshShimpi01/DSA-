@@ -3,7 +3,7 @@
 STRINGS ARE IMMUTABLE 
 
 if you have create a String in memory then you could not be change,delete also cannot be modify it.
-
+or if you hate to modify this String then you will be create a new string.
 
 */
 
