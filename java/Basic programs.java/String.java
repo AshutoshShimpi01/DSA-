@@ -36,7 +36,7 @@ public class java
   
   String firstname= "Tony";
   String lastname="Stark";
-  String fullname=(firstname+lastname);
+  String fullname=(firstname+" "+lastname);
 
    System.out.println(fullname);
     
@@ -45,5 +45,11 @@ public class java
  
   
 /*
-TonyStark
+Tony Stark
+
+suppose we want to know length of the character so use: 
+
+System.out.println(fullname.length);
+OUTPUT is: 10
+(space also included)
 */
