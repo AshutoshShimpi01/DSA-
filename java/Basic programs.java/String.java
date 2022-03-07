@@ -144,3 +144,38 @@ Strings are not equal
 
 
 */
+-----------------------------------------
+ //SUBSTRING
+ import java.util.Scanner;
+
+
+public class java
+{
+ 
+  public static void main(String[] args) 
+  {
+
+
+  String sentence="TonyStark";
+  
+
+  String name=sentence.substring(4);
+
+  System.out.println(name);
+
+  
+   }
+}
+ 
+  
+/*
+if: String name=sentence.substring(0,4);
+OUTPUT:-
+Tony
+(base) ashutoshsanjayshimpi@Ashutoshs-MBP coreJava % java java
+if: String name=sentence.substring(4);
+Stark
+(base) ashutoshsanjayshimpi@Ashutoshs-MBP coreJava % 
+
+
+*/
