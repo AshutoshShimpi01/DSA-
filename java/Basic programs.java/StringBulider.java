@@ -22,4 +22,7 @@ public class java
 /*
 Tony
 STony
+
+ OR
+if we want Tonny so we write:- sb.insert(2,'n');
 */
