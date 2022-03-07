@@ -56,6 +56,12 @@ public class java
   
 /*
 Hello
+
+if we want to do same like this in string so
+
+str=str + "e";
+str=str + "l";
+str=str + "l";
+str=str + "o";
 */
- 
  
