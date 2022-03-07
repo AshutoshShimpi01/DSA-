@@ -1,3 +1,5 @@
+//EASY
+
 import java.util.Scanner;
 
 
