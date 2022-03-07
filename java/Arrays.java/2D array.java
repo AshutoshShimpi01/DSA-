@@ -133,3 +133,61 @@ public class java
 5 4 3 2 1 
 1 2 3 4 5 
 */
+
+----------------------------------------
+	
+import java.util.Scanner;
+
+
+public class java
+{
+ 
+  public static void main(String[] args) 
+  {
+   Scanner sc=new Scanner(System.in);
+   int rows=sc.nextInt();
+   int colm=sc.nextInt();
+
+   int n[][]=new int[rows][colm];
+   
+
+   
+
+   for(int i=0;i<rows;i++)
+   {
+    for(int j=0;j<colm;j++)
+    {
+   n[i][j]=sc.nextInt();
+   }
+ }
+
+ int x=sc.nextInt();
+  
+
+   for(int i=0;i<rows;i++)
+   {
+    for(int j=0;j<colm;j++)
+    {
+      if(n[i][j]==x)
+      {
+         System.out.println("x found at location("+ i +", "+j + ")");
+      }
+   }
+
+ }
+
+    
+   }
+}
+ 
+  
+/*
+3
+4
+1 2 3 4
+4 3 2 11
+1 2 3 4
+11
+x found at location(1, 3)
+
+*/
