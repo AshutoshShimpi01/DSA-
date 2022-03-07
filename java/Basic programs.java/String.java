@@ -1,3 +1,12 @@
+  
+/*
+STRINGS ARE IMMUTABLE 
+
+if you have create a String in memory then you could not be change,delete also cannot be modify it.
+
+
+*/
+
 import java.util.Scanner;
 
 
