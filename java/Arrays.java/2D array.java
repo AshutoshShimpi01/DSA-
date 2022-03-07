@@ -78,3 +78,58 @@ OUTPUT=
 
 1 25 54 60 59 88
 */
+
+-------------------------------------------
+//WITH SCANNER
+
+import java.util.Scanner;
+
+
+public class java
+{
+ 
+  public static void main(String[] args) 
+  {
+   Scanner sc=new Scanner(System.in);
+   int rows=sc.nextInt();
+   int colm=sc.nextInt();
+
+   int[][] n=new int[rows][colm];
+   
+
+   
+
+   for(int i=0;i<rows;i++)
+   {
+    for(int j=0;j<colm;j++)
+    {
+   n[i][j]=sc.nextInt();
+   }
+ }
+  
+
+   for(int i=0;i<rows;i++)
+   {
+    for(int j=0;j<colm;j++)
+    {
+   System.out.print(n[i][j]+" ");
+   }
+   System.out.println();
+ }
+
+    
+   }
+}
+ 
+  
+/*
+3 
+5
+1 2 3 4 5
+5 4 3 2 1
+1 2 3 4 5
+
+1 2 3 4 5 
+5 4 3 2 1 
+1 2 3 4 5 
+*/
