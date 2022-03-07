@@ -10,7 +10,7 @@ public class java
 
   StringBuilder sb=new StringBuilder("Hello");
 
-  for(int i=0;i< sb.length()/2;i++)
+  for(int i=0;i< sb.length()/2;i++)  //we take 2 here coz we divide string into half for downSide logic will be run.
   {
     int front=i;
     int back=sb.length()-1-i; // (for reverse 4 blankplace H go to 5th index) sb.length= 5 - 1 - i=0 = 4
