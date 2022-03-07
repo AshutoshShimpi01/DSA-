@@ -94,7 +94,7 @@ public class java
    int rows=sc.nextInt();
    int colm=sc.nextInt();
 
-   int[][] n=new int[rows][colm];
+   int[][] n=new int[rows][colm];  //int n[][]=new int[rows][colm]; also accessable
    
 
    
