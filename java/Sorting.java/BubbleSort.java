@@ -1,4 +1,5 @@
 
+// In Bubble sort we can push the largest element at last position.
 
 import java.util.Scanner;
 
