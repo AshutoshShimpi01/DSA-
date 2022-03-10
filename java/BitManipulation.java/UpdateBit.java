@@ -70,5 +70,19 @@ we got, bitMask=0010
 
 CLEAR operation:
 
+n=5(101)
+then bitMask=1<<pos(2)
+we get= 0001=0100
+we got, bitMask=0100
+
+now ~(not)=inverseallbits:- 1011
+
+now apply & with n
+
+1011
+0101
+-----
+0001(1)
+
 
 */
