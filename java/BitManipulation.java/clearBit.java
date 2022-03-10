@@ -31,7 +31,7 @@ public class java
 ------------------
 
 n=5(101)
-then bitMask=1<<pos(1)
+then bitMask=1<<pos(2)
 we get= 0001=0100
 we got, bitMask=0100
 
