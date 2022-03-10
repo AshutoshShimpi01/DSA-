@@ -25,10 +25,11 @@ public class java
     {
       arr[i]=sc.nextInt();
     }
+    //time complexity= O(n^2) nsquare
     // BubbleSort
-    for(int i=0;i<size-1;i++)
+    for(int i=0;i<size-1;i++)   //outer loop run (n-1)times
     {
-     for(int j=0;j<size-1;j++)
+     for(int j=0;j<size-1;j++) //inner loops run n,n-1,n-2,....times
      {
       if(arr[j] > arr[j+1])
       {
