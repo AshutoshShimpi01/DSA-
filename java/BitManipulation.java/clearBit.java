@@ -1,3 +1,5 @@
+//if we want to clear(make 0) any index no. bit.
+
 import java.util.Scanner;
 
 
