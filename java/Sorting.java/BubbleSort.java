@@ -7,7 +7,7 @@ public class java
 {
   public static void printArray(int arr[])
   {
-    for(int i=0;i<arr.length;i++)
+    for(int i=0;i<arr.length;i++) // array.length is ( number(5)-1 )
     {
     System.out.print(arr[i]+" ");
     }
@@ -25,13 +25,14 @@ public class java
     {
       arr[i]=sc.nextInt();
     }
-
+    // BubbleSort
     for(int i=0;i<size-1;i++)
     {
      for(int j=0;j<size-1;j++)
      {
       if(arr[j] > arr[j+1])
       {
+        //swap
         int temp = arr[j];
         arr[j]=arr[j+1];
         arr[j+1] = temp;
