@@ -80,3 +80,39 @@ public class java
 35
 66
 */
+
+-----------------------------------
+ 
+ // REVERSE ARRAY 
+ 
+ import java.util.Scanner;
+
+public class java
+{
+  public static void main(String[] args) {
+    
+    Scanner sc = new Scanner(System.in);
+    
+
+    int arr[] = {1,2,3,4,5};
+
+  
+
+    for(int i=arr.length-1; i>=0; i--)
+    {
+      System.out.println(arr[i]);
+    }
+
+
+
+  }
+}
+
+/*
+
+5
+4
+3
+2
+1
+*/
