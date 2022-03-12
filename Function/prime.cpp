@@ -1,3 +1,60 @@
+// PERFECT CODE
+#include <iostream>
+using namespace std;
+
+int is_Numberprime(int num)
+{
+    int reminder=0;
+    for(int i=2;i<=num/2;i++)
+    {
+        reminder=num%i;
+        
+        if(reminder==0)
+        {
+            return 1;
+        }
+        
+    }
+    return 0;
+}
+int main() {
+    int n,isPrime;
+    cin>>n;
+    
+    isPrime=is_Numberprime(n);
+    
+    
+    if(isPrime==0)
+    {
+        cout<<"not prime";
+    }
+    else{
+        cout<<"prime";
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_________________________________________
 #include<iostream>
 #include<math.h>
 using namespace std;
