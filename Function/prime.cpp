@@ -26,10 +26,10 @@ int main() {
     
     if(isPrime==0)
     {
-        cout<<"not prime";
+        cout<<"prime";
     }
     else{
-        cout<<"prime";
+        cout<<"not prime";
     }
 
     return 0;
