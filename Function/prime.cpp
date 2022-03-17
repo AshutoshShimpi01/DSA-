@@ -107,121 +107,43 @@ int main() {
  97
  */
 
-    
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-_________________________________________
-#include<iostream>
-#include<math.h>
-using namespace std;
-
-    
-
-bool isPrime(int num)
-{
-    for(int i=2; i<=sqrt(num); i++)
-    {
-        if(num%i==0)
-        {
-            return false;
-        }
-    }
-    return true;
-}
-
-int main()
-{
-    int a,b;
-    cin>>a>>b;
-    
-    for(int i=a; i<=b; i++)
-    {
-        if(isPrime(i))
-        {
-            cout<<i<<endl;
-        }
-    }
-    return 0;
-}
-
-
-/*
- output-
- 10
- 20-
- 11
- 13
- 17
- 19
- Program ended
- */
 
 ************************************
 
+
 #include <iostream>
 using namespace std;
 
-int main(){
-    int b;
-    cin>>b;
+int main()
+{
+    int n;
+    cin>>n;
+    
     int i;
-    for(i=2; i<b;i++)
+    for(i=2;i<n;i++)
     {
-        if(b%i==0)
+        if(n%i==0)
         {
-            cout<<"Non-Prime"<<endl;
+            cout<<"not prime";
             break;
         }
     }
-        if(i==b)
+        if(n==i)
         {
-            cout<<"Prime"<<endl;
+            cout<<"prime no.";
+  
         }
+ 
     return 0;
 }
+/*
+ 9
+ not prime
+ */
+
 
 *************************************
 
-//
-//  main.cpp
-//  PracticeXcode
-//
-//  Created by ♠️ᴅᴀᴅ's ɢɪғᴛ♠️ on 07/02/22.
-//
 
-#include <iostream>
-using namespace std;
-int main() {
-    int n,num;
-    cin>>n;
-    
-    for(int i=2;i<=n/2;i++)
-    {
-        num=n%i;
-        
-    }
-    if(num==0)
-    {
-        cout<<"not prime";
-    }
-    else{
-        cout<<"prime";
-    }
-
-    return 0;
-}
 
