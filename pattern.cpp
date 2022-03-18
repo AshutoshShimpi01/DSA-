@@ -236,6 +236,45 @@ int main()
 
 *********************************************************************
 
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    
+    int i=1;
+    while(i<=n)
+    {
+        int j=0;
+        while(j<i)
+        {
+            cout<<i+j;
+            j=j+1;
+        }
+        cout<<endl;
+        i=i+1;
+    }
+    
+    
+    return 0;
+}
+/*
+
+6
+1
+23
+345
+4567
+56789
+67891011
+
+ */
+***************************************************
+
 class Solution
 {
 public:
