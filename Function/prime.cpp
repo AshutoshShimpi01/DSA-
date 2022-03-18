@@ -1,3 +1,10 @@
+/*
+prime means :-  2_____________(n-1) divide and check reminder. if n=5. then 2,3,4(n-1=4) check reminder. 5%2=1,5%3=2,5%4=1. PRIME NO=5.
+*/
+
+
+
+
 // PERFECT CODE
 #include <iostream>
 using namespace std;
