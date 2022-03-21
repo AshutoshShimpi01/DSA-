@@ -21,6 +21,7 @@ int main()
                 int temp=arr[i];
                 arr[i]=arr[i+1];
                 arr[i+1]=temp;
+              //  cout<<n-count<<endl; //count always write outside for loop
             }
             }
         counter++;
