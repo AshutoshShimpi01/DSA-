@@ -18,7 +18,7 @@ int main()
         {
         ans = ans + pow(2,i);
         }
-        n = n/10;
+        n = n/10;  // 101/10=10  then  n=10
         i++;
     }
     cout<<ans<<endl;
