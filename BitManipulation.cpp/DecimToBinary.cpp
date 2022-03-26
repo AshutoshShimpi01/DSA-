@@ -16,7 +16,7 @@ int main()
         
         ans = (bit * pow(10,i) ) + ans;
         
-        n = n>>1;
+        n = n>>1;  //Rigth shift mean we divide no. by 2.
         i++;
     }
     cout<<"Answer is: "<<ans<<endl;
