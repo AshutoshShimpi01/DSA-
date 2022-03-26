@@ -14,7 +14,7 @@ int main()
     {
         int bit = n&1;
         
-        ans = (bit * pow(10,i) ) + ans;
+        ans = (bit * pow(10,i) ) + ans;  // Formula = Bit*10powi+ans
         
         n = n>>1;  //Rigth shift mean we divide no. by 2.
         i++;
