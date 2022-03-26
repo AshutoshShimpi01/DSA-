@@ -1,9 +1,9 @@
-#include <iostream>
-#include <math.h>
-
+#include<iostream>
+#include<math.h>
 using namespace std;
-int main(){
 
+int main()
+{
     int n;
     cin>>n;
     
@@ -14,18 +14,32 @@ int main(){
     {
         int bit = n&1;
         
-        ans = (bit * pow(10,i) ) +ans;
+        ans = (bit * pow(10,i) ) + ans;
         
         n = n>>1;
         i++;
     }
-    cout<<"asnwer is: "<<ans<<endl;
-    
+    cout<<"Answer is: "<<ans<<endl;
 }
 
-
-
 /*
- 5
- asnwer is: 101
-*/
+ n=5
+ Answer is: 101
+ 
+ bit = 5&1
+       101
+       001
+    -------
+       001
+ 
+ n>>1= 101=010
+           001
+          ----
+           000
+ n>>1= 010=001
+           001
+        -------
+           001
+ 
+ finally we got. 5=(101)
+ */
