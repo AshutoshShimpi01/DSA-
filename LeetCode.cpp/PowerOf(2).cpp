@@ -1,3 +1,5 @@
+//BroutForce APPROCH- we cant use use old store value, we find everytime new power= pow(2,i)= 1,4,8,16,32,64,128
+
 #include<iostream>
 #include<math.h>
 
