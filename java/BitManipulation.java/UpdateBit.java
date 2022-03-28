@@ -21,7 +21,7 @@ public class java
   {
     Scanner sc = new Scanner(System.in);
     int oper = sc.nextInt();
-
+    //oper=1 (set) , oper=0 (clear)
     int n = 5;
 
     int pos = 1;
