@@ -37,16 +37,16 @@ Logic:-
 
 n=5(101)
 then 1<<pos(2)
-we get= 00101=10100
+we get= 0001=0100
 
-we got, bitMask=10100
+we got, bitMask=0100
 
-then 10100 & 101
+then 0100 & 101
 
-10100
-00101
+0100
+0101
 ______
-00100
+0100       if we get 1 so "bit was one"  and if we get 0 so "bit was zero"
 
 &(AND) = 11=1 || 01=0 || 10=0 || 00=0
 
