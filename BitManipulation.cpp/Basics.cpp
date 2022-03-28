@@ -1,10 +1,10 @@
 /*
 to get same no.
-n=546
-5*100+4*10+6*1=546
-In Binary n=101
-1*2^2 + 0*2^1 + 1*2^0
-  4.  +  0    +  1  = 5
+n=546                                                                          LCM=2
+5*100+4*10+6*1=546                               no.-14 Convert into Binary:-  14/2=7 rem 0
+In Binary n=101                                                                 7/2=3 rem 1
+1*2^2 + 0*2^1 + 1*2^0                                                           3/2=1 rem 1
+  4   +  0    +  1  = 5                                                         1/2=0 rem 1    Reverse=(1110)
 
 to get lastdigit
 n=123
