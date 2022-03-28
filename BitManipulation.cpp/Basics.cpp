@@ -2,6 +2,9 @@
 to get same no.
 n=546
 5*100+4*10+6*1=546
+In Binary n=101
+1*2^2 + 0*2^1 + 1*2^0
+  4.  +  0    +  1  = 5
 
 to get lastdigit
 n=123
