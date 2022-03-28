@@ -21,7 +21,7 @@ int main()
         
         ans = ans * 10 + digit;
         
-        n = n/10;
+        n = n/10;    //n=1234,123,12,1,0 loop end
     }
     cout<<ans<<endl;
 }
