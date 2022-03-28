@@ -30,8 +30,8 @@ public class java
 
 n=5(101)
 then 1<<pos(1)
-we get= 0101=1010
-we got, bitMask=1010
+we get= 0001=0010
+we got, bitMask=0010
 
 0010
 0101
