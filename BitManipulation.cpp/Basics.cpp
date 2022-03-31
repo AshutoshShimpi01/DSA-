@@ -19,12 +19,24 @@ n=123, ans=0
 formula- digit= n%10
 ans=ans*10+digit= 0*10+3=3,3*10+2=32,32*10+1=321
 
+
 decimal To Binary-
 int bit = n&1;
         
         ans = (bit * pow(10,i) ) + ans;  // Formula = Bit*10powi+ans
         
         n = n>>1;  //Rigth shift mean we divide no. by 2.
+        i++;
+        
+        
+Binary To Decimal-
+int digit = n%10;
+        
+        if(digit==1)
+        {
+        ans = ans + pow(2,i);
+        }
+        n = n/10;  // 101/10=10  then  n=10
         i++;
 
 
