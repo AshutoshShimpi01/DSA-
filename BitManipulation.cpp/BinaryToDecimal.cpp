@@ -28,6 +28,7 @@ int main()
  101
  5
  
+ dig=n%10. //101%10=1, n updated after loop n=n/10=10, dig= 10/10=0 so if condition not executed coz dig is not 1.
  
    1     0     1
 pow(2,2  2,1   2,0)
