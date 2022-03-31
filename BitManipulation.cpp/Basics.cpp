@@ -19,6 +19,10 @@ n=123, ans=0
 formula- digit= n%10
 ans=ans*10+digit= 0*10+3=3,3*10+2=32,32*10+1=321
 
+decimal To Binary-
+
+
+
 
 
 
