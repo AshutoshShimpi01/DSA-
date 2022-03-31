@@ -28,6 +28,59 @@ int main()
 Program ended 
 */
 
+__________________________________
+    
+#include<iostream>
+#include<climits>
+using namespace std;
+
+int getMax(int arr[],int n)
+{
+    int max = INT_MIN;
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i] > max)
+        {
+            max = arr[i];
+        }
+    }
+    return max;
+}
+int getMin(int arr[],int n)
+{
+    int min = INT_MAX;
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i] < min)
+        {
+            min = arr[i];
+        }
+    }
+    return min;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    int arr[100];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    
+    cout<<"Maximum value is: "<<getMax(arr,n)<<endl;
+    cout<<"Manimum value is: "<<getMin(arr,n)<<endl;
+    return 0;
+}
+
+/*
+ 5
+ 4 12 5 6 7
+ Maximum value is: 12
+ Manimum value is: 4
+ */
+
+
 *************************************************
 #include <iostream>
 using namespace std;
