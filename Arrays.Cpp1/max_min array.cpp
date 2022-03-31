@@ -36,27 +36,21 @@ using namespace std;
 
 int getMax(int arr[],int n)
 {
-    int max = INT_MIN;
+    int maxi = INT_MIN;
     for(int i=0;i<n;i++)
     {
-        if(arr[i] > max)
-        {
-            max = arr[i];
-        }
+        maxi = max(maxi,arr[i]);
     }
-    return max;
+    return maxi;
 }
 int getMin(int arr[],int n)
 {
-    int min = INT_MAX;
+    int mini = INT_MAX;
     for(int i=0;i<n;i++)
     {
-        if(arr[i] < min)
-        {
-            min = arr[i];
-        }
+        mini = min(mini,arr[i]);
     }
-    return min;
+    return mini;
 }
 int main()
 {
@@ -79,6 +73,7 @@ int main()
  Maximum value is: 12
  Manimum value is: 4
  */
+
 
 
 *************************************************
