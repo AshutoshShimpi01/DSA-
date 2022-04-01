@@ -38,6 +38,26 @@ int digit = n%10;
         }
         n = n/10;  // 101/10=10  then  n=10
         i++;
+        
+
+REFRENCES-
+
+void incerment(int n)            // void increment(int &n)= Now accual variable passs 
+{
+    n++;                           outpUt- 3
+                                           4  
+}. 
+int main()
+{
+    int a=3;
+    cout<<a<<endl;
+     incerment(a);
+    cout<<a<<endl;
+}
+/*
+ 3
+ 3   // not increase value coz variable copy pass to func not variable. by passing &n so
+ */
 
 
 
