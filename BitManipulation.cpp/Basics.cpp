@@ -42,10 +42,10 @@ int digit = n%10;
 
 REFRENCES-
 
-void incerment(int n)            // void increment(int &n)= Now accual variable passs 
+void incerment(int n)   //Pass by value         // void increment(int &n)= (Pass by reffrence) Now accual variable passs 
 {
-    n++;                           outpUt- 3
-                                           4  
+    n++;                                                     outpUt- 3
+                                                                     4  
 }. 
 int main()
 {
