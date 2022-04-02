@@ -1,4 +1,4 @@
-//EASY WAY
+//EASY WAY (AUTO AND RANGE BASED LOOPS)
 #include <iostream>
 #include<vector>
 using namespace std;
