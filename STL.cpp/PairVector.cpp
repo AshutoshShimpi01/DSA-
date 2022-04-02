@@ -1,3 +1,28 @@
+//EASY WAY
+#include <iostream>
+#include<vector>
+using namespace std;
+
+
+int main()
+{
+    vector<pair<int,int>> v={{1,2},{3,4},{5,6}};
+    for(auto &value : v)  // for auto not needTowrite(vector<pair<int,int>> :: iterator it)
+    {                     // for value(automatically determine teh pair)
+        cout<< value.first <<" "<<value.second<<endl;
+    }
+    auto a=1.0;
+    cout<<a<<endl;
+}
+/*
+1 2
+3 4
+5 6
+1
+ */
+
+________________________________
+
 #include<iostream>
 #include<vector>
 using namespace std;
