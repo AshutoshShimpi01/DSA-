@@ -1,21 +1,22 @@
-
-//CODE NOT RUN COZ SOME MISTAKE IS HAPPNED BY ME
 #include<iostream>
 #include<vector>
+#include<math.h>
+using namespace std;
 
 void printVec(vector<string> &v)
 {
-    cout << " size " <<v.size() << endl;
-    
+    cout<<"size: "<<v.size()<<endl;
     for(int i=0;i<v.size();++i)
     {
         cout<<v[i]<<" ";
     }
-    cout << endl;
+    cout<<endl;
+    
 }
 int main()
+
 {
-    vector<string> v;
+    vector<string>v;
     int n;
     cin>>n;
     for(int i=0;i<n;++i)
@@ -25,5 +26,13 @@ int main()
         v.push_back(s);
     }
     printVec(v);
-    
 }
+
+/*
+ 3
+ asd
+ dfg
+ grt
+ size: 3
+ asd dfg grt 
+ */
