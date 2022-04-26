@@ -46,3 +46,15 @@ function lifeInweeks(age)
 }
 lifeInweeks(12);
 */
+
+/*
+function calcBottles(startingmoney,costperBottles){
+var numOfBottles = math.floor(startingmoney / costperBottles);
+return numOfBottles;
+};
+function change(startingmoney,costperBottles){
+  return (startingmoney%costperBottles);
+};
+alert("Hello master, " + change(4,1.5));
+*/
+
