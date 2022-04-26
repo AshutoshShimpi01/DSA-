@@ -58,3 +58,28 @@ function change(startingmoney,costperBottles){
 alert("Hello master, " + change(4,1.5));
 */
 
+/*
+Check LoveScore😍-
+prompt("What is your name");
+prompt("what is their name");
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+if(loveScore > 70)
+{
+  alert("Your love Score is"+ loveScore +"%" + "your love each other");
+}
+if(loveScore>30 && loveScore<=70)
+{
+  alert("your loveScore is " + loveScore + "%");
+}
+if(loveScore<=30){
+  alert("your loveScore is " + loveScore + "%");
+}
+
+*/
+/* take Array
+var guestlist = ["ashu" , "omkar", "abhi", "vinod"];
+alert(guestlist);
+*/
+
+
