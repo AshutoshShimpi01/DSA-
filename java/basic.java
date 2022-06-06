@@ -1,5 +1,8 @@
 /*
 
+
+System.out.println("Multiplication is ="+ c);    // + means Concatination
+
 Multiple Inheritance :-
 
 
