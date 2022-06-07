@@ -28,7 +28,7 @@ A[i]=A[i-1];
 A[index]=x;
 
 
-for(int i=0;i<n;i++)
+for(int i=0;i<=n;i++)
 
 System.out.print(A[i]+",");
 System.out.println("");
@@ -44,6 +44,6 @@ System.out.println("");
 8,
 12,
 6,
-3,9,20,7,8,12,
+3,9,20,7,8,12,6,
 
 */
