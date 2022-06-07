@@ -42,7 +42,8 @@ index of x:
 
 ----------------------------------
  
- import java.lang.*;
+ 
+import java.lang.*;
 import java.util.*;
 
 class java
@@ -50,9 +51,13 @@ class java
 public static void main(String args[])
 {
 
+Scanner sc = new Scanner(System.in);
+
 
 int arr[] = {4,10,2};
-int key =6;
+
+System.out.println("Enter a Key");
+int key = sc.nextInt();
 for(int i=0;i<arr.length;i++)
 {
 
@@ -73,5 +78,10 @@ System.out.println("Not Found");
 
 }
 
+/*
+Enter a Key
+3
+Not Found
+*/
 
-//output-Not Found
+
