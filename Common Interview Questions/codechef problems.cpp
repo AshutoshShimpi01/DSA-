@@ -129,3 +129,9 @@ int main()
  2  // Record Breaking days
  Program ended
  */
+
+-----------------------------------
+ 
+ 
+ First line will contain T, number of test cases. Then the test cases follow.
+Each test case consists of a single line of input, containing three integers X,Y, and A as mentioned in the statement.
