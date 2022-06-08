@@ -18,16 +18,16 @@ System.out.print(A[i]+",");
 System.out.println("");
 }
 
-int x=20;
 int index=2;
+int x=20;
 
-
+ //Inserting new numb
 for(int i=n;i>index;i--)
 
-A[i]=A[i-1];
+A[i]=A[i-1]; // Right shifted from 6 and arrSize is 10
 A[index]=x;
 
-
+//Printing array
 for(int i=0;i<=n;i++)
 
 System.out.print(A[i]+",");
