@@ -131,7 +131,40 @@ int main()
  */
 
 -----------------------------------
- 
+/* 
  
  First line will contain T, number of test cases. Then the test cases follow.
 Each test case consists of a single line of input, containing three integers X,Y, and A as mentioned in the statement.
+*/
+ 
+ #include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    if(z>=x && z<y){
+	        cout<<"YES"<<endl;
+	    }
+	    else{
+	        cout<<"NO"<<endl;
+	    }
+	}
+	return 0;
+}
+/* 
+5 -Test Cases
+21 34 30
+25 31 31
+22 29 25
+20 40 15
+28 29 28
+Output-
+YES
+NO
+YES
+NO
+YES
