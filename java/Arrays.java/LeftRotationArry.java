@@ -16,7 +16,7 @@ import java.util.Scanner;
        
        for(int i=1;i<arr.length;i++)
        {
-           arr[i-1]=arr[i];
+           arr[i-1]=arr[i];  //THIS IS FOR LEFT ROTATE.  AND   arr[i]=arr[i-1] THIS IS FOR RIGHT INDEX SHIFTING
        }
        arr[arr.length-1]=temp;
        for(int x:arr)
