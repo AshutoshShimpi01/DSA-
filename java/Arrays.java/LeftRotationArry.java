@@ -30,3 +30,44 @@ import java.util.Scanner;
 /* 1 2 3 4 5 
    2 3 4 5 1 
 */   
+
+
+--------------------------
+    
+ //WITH FUNC NOT RUN
+    
+ 
+import java.util.*;
+class java
+{
+    public static void isPrime(int arr[])
+{
+   int temp = arr[0];
+   for( int i=1;i<=arr.length;i++)
+   {
+       arr[i-1] = arr[i];
+   }
+   arr[arr.length-1] =temp;
+   
+   for( int i=0;i<=arr.length;i++)
+   {
+     System.out.println(arr[i]) ;
+   }
+   
+}
+
+
+    
+    public static void main(String args[])
+    {
+        
+        int Arr[] = {1,2,3,4,5,6};
+        
+        int check = isPrime(Arr);
+        
+          System.out.println(check);  
+       
+        
+    }
+
+}
