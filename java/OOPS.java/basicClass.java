@@ -1,5 +1,22 @@
 
-// About OBJECTS , CLASSES , This keyword
+/*
+
+why java is better than other language-
+
+it is independent language.
+easy to read,write,and understand.
+
+java cant support multiple inheritance-
+The reason behind this is to prevent ambiguity. 
+Consider a case where class B extends class A and Class C and both class A and C have the same method display().
+Now java compiler cannot decide, which display method it should inherit.
+
+
+
+
+About OBJECTS , CLASSES , This keyword
+
+*/
 
 
 class pen
