@@ -138,11 +138,16 @@ Object -is the parent class of all the classes in java
 
 
 
-Method Overriding -
+Method Overriding -   
 
 (same name, within different class, same arguments types-(no. of argu, type of arg, sequ of arg)
  
  if these all condition satistify and Inheritance is also present then only MethodOverloading present.
+ 
+ 
+ by using methodOverriding we can able to change implementation.
+ (means we extend parent class using child class,
+ and create obj of child class but call only a method of child class .)
 
 example -
 
