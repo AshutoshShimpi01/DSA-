@@ -141,10 +141,13 @@ Object -is the parent class of all the classes in java
 Method Overriding -   
 
 (same name, within different class, same arguments types-(no. of argu, type of arg, sequ of arg)
- 
- if these all condition satistify and Inheritance is also present then only MethodOverloading present.
+if these all condition satistify and Inheritance is also present then only MethodOverloading present.
  
  We can achive Compile time polymorphism using mathodOverloading.
+ 
+ 
+ 
+ Use of MethodOverriding -
  
  by using methodOverriding - we can able to change implementation according to us(what we want).
  (means we extend parent class using child class,
