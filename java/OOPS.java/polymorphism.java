@@ -1,5 +1,22 @@
 /*
 
+POLYMORPHISM :-
+
+ When one name having a many forms this concept is nothing but polymorphism.
+ 
+ example :-
+  
+  (1) water -  water have differsend forms solid,liquid,gas.
+  (2) Shapes - shapes have different forms square,triangle,circle,rectangle.
+  (3) Sound - Dog(barking), Lion(roar).
+  
+ types :-
+  
+  (1) Compile time polymorphism - also called static poly, we  can achive methodOverloading using this.
+  
+  (1) run time polymorphism - also called dynamic poly, we  can achive methodOverriding using this.
+  
+
 Method Overloading:-
 
 
