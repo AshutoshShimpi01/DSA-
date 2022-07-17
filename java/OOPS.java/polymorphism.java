@@ -159,7 +159,7 @@ class test
    
 }
 
-class check
+class check extends test
 {
    
    void show()
@@ -187,5 +187,81 @@ we cannot achive both class output using extend keyword.
 when we use super keyword so itis possiable
 */
 
+--------------------------------------------------------------------------
+
+<Q.2> Type of argument must be same
+
+
+class test
+{
+    
+   void show(String a)
+   {
+       System.out.println("1");
+   }
+   
+}
+
+class check extends test
+{
+   
+   void show(String a)
+   {
+       System.out.println("2");
+   }
+
+
+    
+     public static void main(String[] args) {
+        
+       test t = new test();
+      // check c = new check();  if this 
+       t.show();
+      //c.check();  then output 2
+    }
+}
+
+
+--------------------------------------------------------------------------
+
+<Q.3> Sequence of argument must be same
+
+class test
+{
+    
+   void show(String a,int b)
+   {
+       System.out.println("1");
+   }
+   
+}
+
+class check extends test
+{
+   
+   void show(string a,int b)
+   {
+       System.out.println("2");
+   }
+
+
+    
+     public static void main(String[] args) {
+        
+       test t = new test();
+       t.show("tt",10);
+       
+       check c = new check();  if this 
+       c.check(""ss",20); 
+      
+    }
+}
+OUTPUT- 
+1
+2
+
+--------------------------------------------------------------------------
+
+<Q.4>
 
 
