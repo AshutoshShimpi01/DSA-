@@ -2,6 +2,9 @@
 
 Method Overloading:-
 
+
+We can achive Compile time polymorphism using mathodOverloading.
+
 <Q.1> Ans we cannot achive metedOverloading by changing the return type of method only. coz of ambiguity(compiler confused)
 
 class
