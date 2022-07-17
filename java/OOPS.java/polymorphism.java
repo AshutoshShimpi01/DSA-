@@ -102,6 +102,15 @@ class test {
        t.show('a');   //   'a' = char bt char is not declare 
     }
 }
+
+byte →🔜short
+short →🔜int
+int →🔜 float,long,double
+char →🔜 int
+long→🔜 float,double
+float →🔜 double
+
+Object -is the parent class of all the classes in java
 --------------------------------------------------------------------------
 
 
