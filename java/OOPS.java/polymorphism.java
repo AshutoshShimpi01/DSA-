@@ -271,6 +271,28 @@ OUTPUT-
 
 --------------------------------------------------------------------------
 
-<Q.4>
+<Q.4> Do Overriding method must have same return type?
 
+before 1.4 version it is not allowed, but after covarent return type is allowed.
 
+eg -
+
+class test
+{
+int show()  //return type int
+{
+sop("1");
+}
+}
+
+class check
+{
+String show() //return type String
+{
+sop("1");
+}
+}
+
+--------------------------------------------------------------------------
+
+<Q.5>
