@@ -144,8 +144,9 @@ Method Overriding -
  
  if these all condition satistify and Inheritance is also present then only MethodOverloading present.
  
+ We can achive Compile time polymorphism using mathodOverloading.
  
- by using methodOverriding we can able to change implementation.
+ by using methodOverriding - we can able to change implementation according to us(what we want).
  (means we extend parent class using child class,
  and create obj of child class but call only a method of child class .)
 
