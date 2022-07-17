@@ -273,7 +273,7 @@ OUTPUT-
 
 <Q.4> Do Overriding method must have same return type?
 
-before 1.4 version it is not allowed, but after covarent return type is allowed.
+before 1.4 version it is not allowed, but after(from java 5.0) covarent return type is allowed.
 
 eg -
 
@@ -282,14 +282,16 @@ class test
 int show()  //return type int
 {
 sop("1");
+return null
 }
 }
 
-class check
+class check extends test
 {
 String show() //return type String
 {
 sop("1");
+return null;
 }
 }
 
