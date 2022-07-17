@@ -2,6 +2,12 @@
 // Use this editor to write, compile and run your Java code online
 
 
+
+
+//We cannot create the object of abstract class.   ❌ vehivle v = new vehivle ❌
+
+
+
 import java.util.*;
 
 abstract class vehicle {
