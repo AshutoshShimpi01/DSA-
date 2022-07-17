@@ -144,5 +144,48 @@ Method Overriding -
  
  if these all condition satistify and Inheritance is also present then only MethodOverloading present.
 
+example -
+
+
+import java.util.*;
+
+class test
+{
+    
+   void show()
+   {
+       System.out.println("1");
+   }
+   
+}
+
+class check
+{
+   
+   void show()
+   {
+       System.out.println("2");
+   }
+
+
+    
+     public static void main(String[] args) {
+        
+       test t = new test();
+      // check c = new check();  if this 
+       t.show();
+      //c.check();  then output 2
+    }
+}
+
+/*
+1
+
+
+we create which class obj so we only got inside this method output.
+we cannot achive both class output using extend keyword. 
+when we use super keyword so itis possiable
+*/
+
 
 
