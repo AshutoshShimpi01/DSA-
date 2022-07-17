@@ -19,6 +19,8 @@ POLYMORPHISM :-
 
 Method Overloading:-
 
+(same name, within same class, different arguments types-(no. of argu, type of arg, sequ of arg)
+
 
 We can achive Compile time polymorphism using mathodOverloading.
 
