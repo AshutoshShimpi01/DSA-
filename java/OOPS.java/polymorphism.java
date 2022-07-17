@@ -141,7 +141,8 @@ Object -is the parent class of all the classes in java
 Method Overriding -
 
 (same name, within different class, same arguments types-(no. of argu, type of arg, sequ of arg)
-
+ 
+ if these all condition satistify and Inheritance is also present then only MethodOverloading present.
 
 
 
