@@ -136,3 +136,12 @@ Object -is the parent class of all the classes in java
 --------------------------------------------------------------------------
 
 
+
+
+Method Overriding -
+
+(same name, within different class, same arguments types-(no. of argu, type of arg, sequ of arg)
+
+
+
+
