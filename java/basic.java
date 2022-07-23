@@ -1,5 +1,22 @@
 /*
 
+Call by Value:-
+means calling a method with a parameter as value.
+this, the argument value is passed to the parameter.
+
+
+Call by Reference:-
+means calling a method with a parameter as a reference. 
+Through this, the argument reference is passed to the parameter.
+
+
+
+
+
+
+
+
+
 
 System.out.println("Multiplication is ="+ c);    // + means Concatination
 
