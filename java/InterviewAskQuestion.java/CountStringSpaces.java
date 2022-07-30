@@ -30,3 +30,38 @@ class HelloWorld {
 In the string: 'ashutosh Sanjay Shimpi'
 number of spaces: 2
 */
+
+---------------
+//ESAY
+    
+    
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Scanner;
+class HelloWorld {
+    
+    
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+       String str = "ashutosh Sanjay Shimpi";
+       
+       int withSpace = str.length();
+       
+       str = str.replace(" ","");
+       
+       int withoutSpace = str.length();
+       
+       int spaces = withSpace - withoutSpace;
+       
+       System.out.println(spaces);
+        
+    }
+}
+
+/*
+In the string: 'ashutosh Sanjay Shimpi'
+number of spaces: 2
+*/
