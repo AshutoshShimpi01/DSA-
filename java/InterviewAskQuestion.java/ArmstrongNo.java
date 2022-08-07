@@ -29,9 +29,18 @@ class java {
          System.out.println("not Armstrong no."); 
       }
       
+      /*
       //153
       //Armstrong no.
       
+      means sum of each no. cube and digits are equal
+      
+      1*1*1=1
+      5*5*5=125
+      3*3*3=27
+      sum = 153
+      
+      */
       
       
        
