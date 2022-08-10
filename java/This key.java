@@ -8,7 +8,7 @@ public Calc(int num1,int num2) // local veriables
 {
 	this.num1=num1;       // here we use this key word coz local and instance variable names are same. 
 	                      //if we not write this key then we cant able to asign value to our instance variable and we got 0 output. coz num1=num1 ?
-	this.num2=num2;
+	this.num2=num2;      // this. num1 and this.num2 reffers to the current class instance num1 and num2 variables.
 	
 }
 
