@@ -1,12 +1,13 @@
 class Calc
 {
-int num1;
-int num2;
-int result;
+int num1;  // which ever veriables are declare inside class not inside method parameters these are instance veriable.
+int num2; // instance veriable.
+int result; // instance veriable.
 
-public Calc(int num1,int num2)
+public Calc(int num1,int num2) // local veriables
 {
-	this.num1=num1; 
+	this.num1=num1;       // here we use this key word coz local and instance variable names are same. 
+	                      //if we not write this key then we cant able to asign value to our instance variable and we got 0 output. coz num1=num1 ?
 	this.num2=num2;
 	
 }
