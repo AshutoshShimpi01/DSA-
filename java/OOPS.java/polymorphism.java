@@ -224,8 +224,9 @@ class check extends test
      public static void main(String[] args) {
         
        test t = new test();
+       t.show("ashu"); //  output- 1
+       
       // check c = new check();  if this 
-       t.show();
       //c.check();  then output 2
     }
 }
@@ -248,7 +249,7 @@ class test
 class check extends test
 {
    
-   void show(string a,int b)
+   void show(String a,int b)
    {
        System.out.println("2");
    }
@@ -258,11 +259,11 @@ class check extends test
      public static void main(String[] args) {
         
        test t = new test();
-       t.show("tt",10);
+       t.show("tt",10);  //.  1
        
-       check c = new check();  if this 
-       c.check(""ss",20); 
       
+       check c = new check();  
+       c.show("ss",20); //.  2
     }
 }
 OUTPUT- 
