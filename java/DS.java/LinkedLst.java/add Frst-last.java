@@ -97,8 +97,7 @@ is -> a -> list -> Null
 
 ------------------------
    
-//DELETE LAST
- 
+   
 class LL {
    Node head;
    class Node
@@ -165,6 +164,15 @@ class LL {
        
        }
        
+       public void delFirst()
+    {
+        if(head==null)
+        {
+            System.out.print("list is empty");
+        }
+        head=head.next;
+    }
+       
        public void delLast()
     {
         if(head==null)
@@ -206,17 +214,23 @@ class LL {
         list.addFirst("list");
         list.printList();
         
+        list.delFirst();
+        list.printList();
+        
         list.delLast();
         list.printList();
         
     }
 }
-
 /*
+
 is -> a -> Null
 is -> a -> list -> Null
-list ->is -> a -> list -> Null
-list -> is -> a -> Null
-*/
+list -> is -> a -> list -> Null
+is -> a -> list -> Null
+is -> a -> Null
 
+
+
+*/
 --------------------
