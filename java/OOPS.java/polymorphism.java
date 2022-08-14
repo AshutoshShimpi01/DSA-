@@ -24,6 +24,46 @@ Method Overloading:-
 
 We can achive Compile time polymorphism using mathodOverloading.
 
+
+
+
+
+//Dynamic Binding:-
+-------------------
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class A {
+    public void show()
+    {
+        System.out.println("class a");
+    }
+}
+
+class B extends A
+{
+/*    public void show()
+    {
+        System.out.println("class b");
+    }
+    */
+}
+
+// 
+
+class test
+{
+    public static void main(String[] args) {
+        
+        A a = new B();  //
+        
+        a.show();
+    }
+}
+
+--------------------------
+
 <Q.1> Ans we cannot achive metedOverloading by changing the return type of method only. coz of ambiguity(compiler confused)
 
 class
