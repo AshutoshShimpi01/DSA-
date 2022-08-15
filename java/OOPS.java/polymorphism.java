@@ -26,13 +26,14 @@ We can achive Compile time polymorphism using mathodOverloading.
 
 
 
-
+*/
 
 //Dynamic Binding:-
 -------------------
 
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+
+
+
 
 class A {
     public void show()
@@ -40,22 +41,16 @@ class A {
         System.out.println("class a");
     }
 }
-
 class B extends A
 {
-/*    public void show()
+
+/*  
+public void show()
     {
         System.out.println("class b");
     }
-    */
+*/    
 }
-
-/*Output  class a
-
-if class B not commented so output is class b.
-and if any method doesnot write so we got error.
-
-*/
 
 class test
 {
@@ -66,6 +61,16 @@ class test
         a.show();
     }
 }
+
+/*
+Output-  class a
+
+if class B not commented so output is class b.
+and if any method doesnot write so we got error.
+
+*/
+
+
 
 --------------------------
 
