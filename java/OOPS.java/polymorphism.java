@@ -50,7 +50,12 @@ class B extends A
     */
 }
 
-// 
+/*Output  class a
+
+if class B not commented so output is class b.
+and if any method doesnot write so we got error.
+
+*/
 
 class test
 {
