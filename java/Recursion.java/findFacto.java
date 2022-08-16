@@ -35,7 +35,33 @@ public class reverse{
 
 ----------------------------------------------
 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
+class HelloWorld {
+    
+    public static int fact(int n)
+    {
+        if(n==1 || n==0)
+        {
+            return 1;
+        }
+        int fact1 = fact(n-1);
+        int fact =  n * fact1;
+        return fact;
+    }
+    public static void main(String[] args) {
+        
+        
+       int n=5;
+       int check = fact(n);
+       System.out.println(check);
+    }
+}
+
+//120
+
+----------------------------------------------
 
 
 
@@ -65,6 +91,18 @@ int main()
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
    
 /*
  4
