@@ -372,3 +372,116 @@ is -> a -> Null
 
 
 */
+
+
+
+
+------------------------------
+   
+   
+public class java{
+
+    static Node head;
+
+    public static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
+
+
+    public static void addFirst(int data) {
+        Node newNode = new Node(data);
+
+        if(head == null) {
+            head = newNode;
+            return;
+        }
+
+        newNode.next = head;
+        head = newNode;
+    }
+
+
+    public static void addLast(int data) {
+        Node newNode = new Node(data);
+        if(head == null) {
+            head = newNode;
+            return;
+        }
+
+        Node currNode = head;
+        while(currNode.next != null) {
+            currNode = currNode.next;
+        }
+
+        currNode.next = newNode;
+    }
+
+
+    public static void display() {
+        if(head == null) {
+            System.out.println("Empty");
+            return;
+        }
+
+        Node currNode = head;
+        while(currNode != null) {
+            System.out.print(currNode.data + " -> ");
+            currNode = currNode.next;
+        }
+
+        System.out.println("null");
+    }
+
+    public static void removeFirst() {
+        if(head.next == null) {
+            head = null;
+            return;
+        }
+
+        head = head.next;
+    }
+
+
+    public static void removeLast() {
+        Node prev = head;
+        Node curr = head.next;
+
+        while(curr.next != null) {
+            curr = curr.next;
+            prev = prev.next;
+        }
+
+        prev.next = null;
+    }
+
+
+
+    public static void main(String[] args) {
+        addFirst(67);
+        addFirst(15);
+        addFirst(43);
+
+        display();
+
+        addLast(2);
+        addLast(94);
+        display();
+
+        removeFirst();
+        display();
+        removeLast();
+        display();
+
+
+// 43 -> 15 -> 67 -> null
+// 43 -> 15 -> 67 -> 2 -> 94 -> null
+// 15 -> 67 -> 2 -> 94 -> null
+// 15 -> 67 -> 2 -> null
+
+    }
+}
