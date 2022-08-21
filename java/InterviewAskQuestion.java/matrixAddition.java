@@ -33,7 +33,7 @@ class HelloWorld {
 
 
 
-// input from user 
+// input from user (RIGTH WAY TO TAKE INPUT,  BUT NOT GIVE CORRECT OUTPUT)
 
 
 import java.util.Scanner;
