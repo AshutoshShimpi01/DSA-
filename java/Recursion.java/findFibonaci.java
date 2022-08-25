@@ -6,27 +6,27 @@ class java {
     
     static int n1=0,n2=1,n3;
     
-    public static void fibo(int count)
+    public static void fibo(int n)
     {
    
         
         
-        if(count>0)
+        if(n>0)
         {
             n3=n1+n2;
             n1=n2;
             n2=n3;
             System.out.print(n3 + " ");
-            fibo(count-1);  // call func return type void
+            fibo(n-1);  // call func return type void
         }
         
     }
     public static void main(String[] args) {
        
-       int count=15;
+       int num=15;
        
        System.out.print( n1 + " " + n2);
-       fibo(count-2);
+       fibo(num-2);
        
     }
 }
@@ -34,7 +34,7 @@ class java {
 // 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
 
 
-
+----------
 
 
 
