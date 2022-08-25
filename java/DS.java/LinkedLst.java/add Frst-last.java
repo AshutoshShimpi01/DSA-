@@ -165,7 +165,7 @@ public class java{
             return;
         }
 
-        head = head.next;
+        head = head.next;    // null nsel tr
     }
 
 
@@ -178,7 +178,7 @@ public class java{
             prev = prev.next;
         }
 
-        prev.next = null;
+        prev.next = null;    // jr agodarpasun null asel tr
     }
 
 
