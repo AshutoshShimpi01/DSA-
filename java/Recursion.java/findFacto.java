@@ -1,5 +1,46 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
+
+class java {
+    
+    public static int fact(int n)
+    {
+   
+        
+        if(n==1)
+        {
+            return 1;
+        }
+        else
+        {
+             return(n * fact(n-1));  
+        }
+    }
+    public static void main(String[] args) {
+       
+      System.out.println(fact(5));  
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 import java.util.Scanner;
 
 public class reverse{
