@@ -3,6 +3,9 @@
 // In this example we are passing object as a value. Let's take a simple example:
 
 
+//temporary value changes inside functions not parmantly changes.
+
+
 
 class HelloWorld {
     
