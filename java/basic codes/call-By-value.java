@@ -4,7 +4,7 @@
 
 
 //temporary value changes inside functions not parmantly changes.
-
+//temporary changes perform inside functions, not parmantly change the original value of premitive datatype.
 
 
 
