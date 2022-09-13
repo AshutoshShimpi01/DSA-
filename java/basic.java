@@ -86,4 +86,11 @@ HENCE JAVA  doesnt support multiple Inheritance.
 
 
 
+
+
+What is the advantage of switch over for loop?
+The main reasons for using a switch include improving clarity, by reducing otherwise repetitive coding,
+and (if the heuristics permit) also offering the potential for faster execution through easier compiler optimization in many cases.
+
+
 */
