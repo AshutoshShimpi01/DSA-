@@ -1,9 +1,37 @@
 /*
 
+
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int i=1;
+        i++;
+        
+        System.out.println(i++);
+        ++i;
+        System.out.println(++i);
+    }
+}
+
+// 2
+// 5
+
+
+-----------------------
+
 Call by Value:-
 means calling a method with a parameter as value.
 this, the argument value is passed to the parameter.
 
+
+
+JAVA NOT SUPPORT :-
 
 Call by Reference:-
 means calling a method with a parameter as a reference. 
