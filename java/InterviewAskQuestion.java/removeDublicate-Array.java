@@ -25,7 +25,10 @@ class HelloWorld {
             }
         }
         
-        temp[j++] = arr[n-1];
+        temp[j++] = arr[n-1];      //same- temp[j] = arr[arr.length-1];
+                                     //     j++;
+        
+         // Changing original array  
         
         for(int i=0;i<j;i++)
         {
