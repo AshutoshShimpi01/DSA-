@@ -66,3 +66,9 @@ class HelloWorld {
 // 5
 // 1 1 2 3 3
 // 1 2 3 
+
+
+
+//SAME-
+// temp[j]=arr[i];
+//  j++;
