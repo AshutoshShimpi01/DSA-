@@ -26,3 +26,12 @@ class Main {
 
 // ArrayList with duplicate elements: [1, 2, 3, 4, 1, 3]
 // ArrayList without duplicate elements: [1, 2, 3, 4]
+
+// In the above example, we have created an arraylist named numbers. The arraylist contains duplicate elements.
+
+// Here, we have used the Stream class to remove duplicate elements from the arraylist.
+
+// numbers.stream() - create a stream from the arraylist
+// stream.distinct() - removes duplicate elements
+// stream.collect(Collectors.toList()) - returns a list from the stream
+// Here, we have used typecasting to convert the returned list into an arraylist.
