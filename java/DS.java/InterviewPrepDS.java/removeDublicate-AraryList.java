@@ -35,3 +35,34 @@ class Main {
 // stream.distinct() - removes duplicate elements
 // stream.collect(Collectors.toList()) - returns a list from the stream
 // Here, we have used typecasting to convert the returned list into an arraylist.
+
+
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        ArrayList<Integer> numb = new ArrayList<>(Arrays.asList(1,2,3,2));
+        
+        
+        
+        Set<Integer> set = new LinkedHashSet<>();
+        
+        set.addAll(numb);
+        
+        numb.clear();
+        
+        numb.addAll(set);
+        
+        System.out.print(numb + " ");
+    }
+}
