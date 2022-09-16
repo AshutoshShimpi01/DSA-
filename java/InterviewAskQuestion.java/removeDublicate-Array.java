@@ -25,6 +25,8 @@ class HelloWorld {
             }
         }
         
+        //for equal temporary array size
+        
         temp[j++] = arr[n-1];      //same- temp[j] = arr[arr.length-1];
                                      //     j++;
         
