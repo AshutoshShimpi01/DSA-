@@ -1,3 +1,6 @@
+// THIS KEYWORD USED TO REFFRE THE CURRENT CLASS INSTATCE VARIABLE.
+
+
 class Calc
 {
 int num1;  // which ever veriables are declare inside class not inside method parameters these are instance veriable.
