@@ -61,3 +61,30 @@ class Main {
 // Enter element to be searched:
 // 5
 // Element found at index 2
+
+
+
+
+----------------
+    
+//USING RECURSSION
+    
+ int binarySearch(int array[], int element, int low, int high) {
+
+    if (high >= low) {
+      int mid = low + (high - low) / 2;
+
+      // check if mid element is searched element
+      if (array[mid] == element)
+        return mid;
+
+      // Search the left half of mid
+      if (array[mid] > element)
+        return binarySearch(array, element, low, mid - 1);
+
+      // Search the right half of mid
+      return binarySearch(array, element, mid + 1, high);
+    }
+
+    return -1;
+  }
