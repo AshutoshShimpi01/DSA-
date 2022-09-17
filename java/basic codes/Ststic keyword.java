@@ -9,7 +9,7 @@
   We can have two or more static methods with the same name, but differences in input parameters.
 
 
-
+STATIC KEYWORD BASICALLY USED FOR MEMORY MANAGEMENT
 
 
 
