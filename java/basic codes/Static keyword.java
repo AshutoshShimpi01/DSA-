@@ -9,7 +9,7 @@
   We can have two or more static methods with the same name, but differences in input parameters.
 
 
-STATIC VARIABLE BASICALLY USED FOR MEMORY MANAGEMENT
+STATIC VARIABLE BASICALLY USED FOR MEMORY MANAGEMENT. (occupie spase under method area or class area)
 
 
 
