@@ -77,3 +77,31 @@ class HelloWorld {
 //SAME-
 // temp[j]=arr[i];
 //  j++;
+
+-------------------------------
+    
+    
+ 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        ArrayList<Integer> numb = new ArrayList<>(Arrays.asList(1,2,3,2));
+        
+        
+        
+        Set<Integer> set = new LinkedHashSet<>();
+        
+        set.addAll(numb);
+        
+        numb.clear();
+        
+        numb.addAll(set);
+        
+        System.out.print(numb + " ");
+    }
+}
