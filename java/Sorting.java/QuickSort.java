@@ -1,7 +1,3 @@
-
-//MISTAKE
-
-
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
@@ -10,9 +6,9 @@ class HelloWorld {
     public static int partition(int arr[],int low,int high )
     {
         int pivot = arr[high];
-        int i = low-1;
+        int i = (low-1);
         
-        for(int j=low;j<high-1;j++)
+        for(int j=low;j<=high-1;j++)
         {
             if(arr[j]<pivot)
             {
@@ -59,4 +55,4 @@ class HelloWorld {
     }
 }
 
-// 0 1 2 6 3 7 9 
+// 0 1 2 3 6 7 9 
