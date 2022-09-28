@@ -162,4 +162,31 @@ class java {
 // ajhga
 // aaj
 
+//SAME
 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld 
+{
+    public static void main(String[] args) 
+    {
+        
+        String s = "vinod a ass a sas aada da da";
+        
+        String[] arr = s.split(" ");
+        
+        for(int i=0;i<arr.length;i++)
+        {
+           if(arr[i].charAt(0)=='a')
+           {  
+               
+            System.out.println(arr[i]);
+            
+            
+           }     
+        }
+        
+       
+    }
+}
