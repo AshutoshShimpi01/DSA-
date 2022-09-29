@@ -66,3 +66,39 @@ class HelloWorld {
         System.out.print(numb + " ");
     }
 }
+
+
+
+//USING FOR LOOP
+
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class pract{
+
+    public static void main(String[] args) {
+
+        int[] arr = {1,1,2,3,2,7};
+
+        List<Integer> li = new ArrayList<>();
+
+        Arrays.sort(arr);
+
+        for(int i = 0; i < arr.length-1; i++) {
+
+            if(arr[i] != arr[i+1]) {
+                li.add(arr[i]);
+            }
+        }
+
+        li.add(arr[arr.length-1]);
+
+        System.out.println(li);
+
+    }
+}
+
+// [1, 2, 3, 7]
