@@ -102,3 +102,65 @@ public class pract{
 }
 
 // [1, 2, 3, 7]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class pract{
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+        
+        for(int i=0;i<arr.length;i++)
+        {
+            arr[i] = sc.nextInt();
+        }
+
+        List<Integer> li = new ArrayList<>();
+
+        Arrays.sort(arr);
+
+        for(int i = 0; i < arr.length-1; i++) {
+
+            if(arr[i] != arr[i+1]) {
+                li.add(arr[i]);
+            }
+        }
+
+        li.add(arr[arr.length-1]);
+
+        System.out.println(li);
+
+    }
+}
+
+// [1, 2, 3, 7]
