@@ -141,35 +141,31 @@ public class StringOperator
         int i;
         String str;
  
-        int counter[] = new int[256];
+        int count[] = new int[256];
         Scanner in = new Scanner(System.in);
  
         System.out.print("Enter a String : ");
         str=in.nextLine();
  
          for (i = 0; i < str.length(); i++) {
-            counter[(int) str.charAt(i)]++;
+            count[(int) str.charAt(i)]++;
         }
-        // Print Frequency of characters
-for (i = 0; i < 256; i++) {
-if (counter[i] != 0) {
-System.out.println("The character " + (char) i  + " has occurred for " + counter[i] + " times");
+     
+    for (i = 0; i < 256; i++) 
+      {
+       if (count[i] != 0) 
+       {
+      System.out.println("The character " + (char) i  + " " + count[i] + " times");
             }
         }
    }
 }
 
 
-// Enter a String : ashutosh sanjay shimpi
-// The character   has occurred for 2 timesThe character a has occurred for 3 times
-// The character h has occurred for 3 times
-// The character i has occurred for 2 times
-// The character j has occurred for 1 times
-// The character m has occurred for 1 times
-// The character n has occurred for 1 times
-// The character o has occurred for 1 times
-// The character p has occurred for 1 times
-// The character s has occurred for 4 times
-// The character t has occurred for 1 times
-// The character u has occurred for 1 times
-// The character y has occurred for 1 times
+// Enter a String : ashutosh
+// The character a 1 times
+// The character h 2 times
+// The character o 1 times
+// The character s 2 times
+// The character t 1 times
+// The character u 1 times
