@@ -15,7 +15,6 @@ class HelloWorld {
     {
         for(int j=0;j<3;j++)
         {
-            c[i][j]=0;
             
             for(int k=0;k<3;k++)
             {
