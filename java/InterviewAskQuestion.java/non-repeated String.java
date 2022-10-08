@@ -21,3 +21,5 @@ public class Main {
 
 The given string is: gibblegabbler
 The first non repeated character in String is: i
+
+
