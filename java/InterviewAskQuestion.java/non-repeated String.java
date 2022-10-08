@@ -2,7 +2,9 @@ import java.util.*;
 public class Main {
  public static void main(String[] args) {
   String str1 = "gibblegabbler";
-  System.out.println("The given string is: " + str1);
+  System.out.println("string is: " + str1);
+  
+  
   for (int i = 0; i < str1.length(); i++) {
    boolean unique = true;
    for (int j = 0; j < str1.length(); j++) {
@@ -12,14 +14,12 @@ public class Main {
     }
    }
    if (unique) {
-    System.out.println("The first non repeated character in String is: " + str1.charAt(i));
+    System.out.println( str1.charAt(i));
     break;
    }
   }
  }
 }
 
-The given string is: gibblegabbler
-The first non repeated character in String is: i
-
-
+// string is: gibblegabbler
+// i
