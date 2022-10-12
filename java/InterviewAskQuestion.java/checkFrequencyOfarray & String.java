@@ -68,6 +68,62 @@ class java {
 // ---------------
 
 
+
+
+import java.util.*;
+import java.util.Scanner;
+
+class code
+{
+
+    
+	public static void main(String[] args)
+	{
+		
+		Scanner sc = new Scanner(System.in);
+       
+
+
+
+       
+       int arr[] = {1,2,1,3,4,5,2,4,9};
+
+       int fr[] = new int[arr.length];
+
+
+       int check = -1;
+
+       for(int i=0;i<arr.length;i++)
+       {
+        int count=1;
+
+        for(int j=i+1;j<arr.length;j++)
+        {
+            if(arr[i]==arr[j])
+            {
+                count++;
+                fr[j]=check;
+            }
+        }
+        if(fr[i]!=check)
+        {
+            fr[i]=count;
+        }
+       }
+
+       for(int i=0;i<arr.length;i++)
+       {
+           if(fr[i]!=check && fr[i]<2)
+        System.out.println(arr[i] + " ");
+       }
+    }
+}
+
+// 3 
+// 5 
+// 9 
+
+
 ----------------------------------------
 
 
