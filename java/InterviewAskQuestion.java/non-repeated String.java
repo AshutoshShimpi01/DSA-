@@ -15,11 +15,13 @@ public class Main {
    }
    if (unique) {
     System.out.println( str1.charAt(i));
-    break;
+    break;                                // When we remove break then all non repeated string are shown
    }
   }
  }
 }
+
+// CODE ONLY FOR FIRST NON_REPEATED STRING
 
 // string is: gibblegabbler
 // i
