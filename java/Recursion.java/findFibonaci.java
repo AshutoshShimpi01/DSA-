@@ -65,3 +65,39 @@ public class Recursion
 */
 
 
+--------------------
+	
+	
+//JUST CHANGE RETURN TYPE
+//SIMPLE CODE
+	
+	
+class java {
+    
+    static int n1=0,n2=1,n3;
+    
+    public static int fibo(int n)
+    {
+   
+        if(n>0)
+        {
+            n3=n1+n2;
+            n1=n2;
+            n2=n3;
+            System.out.print(n1 + " ");
+            return fibo(n-1);  // call func return type void
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+       
+       int num=15;
+       
+       System.out.print(n1 + " "); fibo(num-2); 
+       
+    }
+}
+
+
+// 0 1 1 2 3 5 8 13 21 34 55 89 144 233 
+
