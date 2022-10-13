@@ -9,14 +9,12 @@ class java {
     public static void fibo(int n)
     {
    
-        
-        
         if(n>0)
         {
             n3=n1+n2;
             n1=n2;
             n2=n3;
-            System.out.print(n3 + " ");
+            System.out.print(n1 + " ");
             fibo(n-1);  // call func return type void
         }
         
@@ -24,12 +22,12 @@ class java {
     public static void main(String[] args) {
        
        int num=15;
-       
-       System.out.print( n1 + " " + n2);
-       fibo(num-2);
+       fibo(num-2); 
        
     }
 }
+
+// if i want 0 then write Syso(n1); and fib0(num-1);
 
 // 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
 
