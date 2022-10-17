@@ -4,6 +4,9 @@
 
 //WHEN WE PASS OBJECT REFERENCE TO THE CONSTRUCTOR
 
+
+// (it will copy the value of one object to another object of a class)
+
 class A {
     
     int x,y;
