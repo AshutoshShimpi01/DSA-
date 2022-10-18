@@ -48,6 +48,8 @@ class C
 
 --------------
     
+//WITH PARAMETER
+    
     
 class Student6{  
     int id;  
