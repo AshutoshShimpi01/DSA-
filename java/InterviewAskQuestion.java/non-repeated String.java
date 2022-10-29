@@ -25,3 +25,73 @@ public class Main {
 
 // string is: gibblegabbler
 // i
+
+
+----------------------
+ 
+ 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        String s= "geeksforgeeks";
+        
+        for(int i=0;i<s.length();i++)
+        {
+            boolean uni = true;
+            for(int j=0;j<s.length();j++)
+            {
+                if(i!=j && s.charAt(i)==s.charAt(j))
+                {
+                    uni = false;
+                    break;
+                }
+            }
+            if(uni)
+            {
+                System.out.print(s.charAt(i));
+                
+            }
+        }
+    }
+}
+
+//for
+
+-----------------------
+
+
+
+
+// REPEATED STRING
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        String s= "geeksforgeeks";
+        
+        for(int i=0;i<s.length();i++)
+        {
+            boolean uni = true;
+            for(int j=0;j<s.length();j++)
+            {
+                if(i!=j && s.charAt(i)==s.charAt(j))
+                {
+                    uni = false;
+                    break;
+                }
+            }
+            if(!uni)
+            {
+                System.out.print(s.charAt(i));
+                
+            }
+        }
+    }
+}
+
+// geeksgeeks
