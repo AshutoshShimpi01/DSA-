@@ -6,7 +6,12 @@
   
   
   Can we overload static methods? The answer is 'Yes'.
+  Can we overload the methods by making them static?
+  No, We cannot overload the methods by just applying the static keyword to them(number of parameters and types are the same).
+
   We can have two or more static methods with the same name, but differences in input parameters.
+  
+  
 
 
 STATIC VARIABLE BASICALLY USED FOR MEMORY MANAGEMENT. (occupie spase under method area or class area)
