@@ -1,8 +1,8 @@
-/*
-                 Bst      Avg.    Worst     Space(w)
-// Bubble Sort-	 Ω(n)	  θ(n^2)	  O(n^2)	       O(1)
 
-*/
+//                Bst      Avg.    Worst    Space(w)
+// Bubble Sort-	 Ω(n)	     θ(n^2)  O(n^2)	    O(1)
+
+
 import java.util.Scanner;
 
 class HelloWorld {
