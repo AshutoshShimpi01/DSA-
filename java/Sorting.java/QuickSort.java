@@ -1,5 +1,6 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+
+//                   best        average   worst  Space Worst
+// Quick Sort-	  Ω(n log(n))	  θ(n log(n))	O(n^2)	   O(n)        best sign-omega
 
 class HelloWorld {
     
