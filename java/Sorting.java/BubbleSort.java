@@ -1,5 +1,8 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+/*
+                 Bst      Avg.       Worst     Space(w)
+// Bubble Sort-	 Ω(n)	  θ(n^2)	  O(n^2)	  O(1)
+
+*/
 import java.util.Scanner;
 
 class HelloWorld {
