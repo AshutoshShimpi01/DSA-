@@ -1,5 +1,6 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+                                                 //Space
+//                  Best	Average	 Worst	      Worst
+// Selection Sort	Ω(n^2)	θ(n^2)	 O(n^2)	       O(1)
 
 import java.util.Scanner;
 class HelloWorld {
