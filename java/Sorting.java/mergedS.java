@@ -17,7 +17,7 @@ class HelloWorld {
         int x = 0;
         
         
-        while(idx1 < mid &&  idx2 <= ei)
+        while(idx1 <= mid &&  idx2 <= ei)
         {
             if(arr[idx1] <= arr[idx2])
             {
@@ -46,7 +46,7 @@ class HelloWorld {
     }
     
     
-    public static void divede(int arr[] ,int si,int ei)
+    public static void divide(int arr[] ,int si,int ei)
     {
         if(si>=ei)
         {
@@ -78,3 +78,4 @@ class HelloWorld {
         System.out.println(" ");
     }
 }
+ 
