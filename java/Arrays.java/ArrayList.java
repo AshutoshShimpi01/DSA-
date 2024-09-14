@@ -20,3 +20,7 @@ for(String fruit:list1)
 
  }  
 }  
+
+//chiku
+//mango
+//tomato
